@@ -478,7 +478,10 @@ header {
   }
 
   .wrapper {
-    left: 65x;
+    left: 70px;
+  }
+  .container{
+    top: 22%;
   }
 
  

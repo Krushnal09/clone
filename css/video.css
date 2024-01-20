@@ -112,19 +112,14 @@ html{
     }
 
    
-        .more-vids {
-            margin-left: 12px;
-            border: none;
-            top: 82%;
-        
-            position: absolute;
-        
-        
-            height: 187%;
-        
-        
-        
-        
-          
-     }
+    .more-vids {
+         margin-left: 12px;
+         border: none;
+         top: 82%;
+         position: absolute;
+        height: 187%;
+    }
+    .vid-title {
+        height: 16%;
+    }
 }
