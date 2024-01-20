@@ -61,7 +61,7 @@ html{
         background-color: black;
         display: flex;
         position: absolute;
-        top: 19%;
+        top: 22%;
         left: 3%;
         /* align-items: center; */
         border-radius: 20px;
@@ -105,4 +105,14 @@ html{
         border-left: 14px solid #e37300;
         /* padding-left: 70px; */
     }
+}
+@media screen and (max-width: 400px) {
+    .vid-sec {
+        top: 23%;
+    }
+
+    .more-vids {
+        margin-left:2px ;
+        border: none;
+     }
 }
