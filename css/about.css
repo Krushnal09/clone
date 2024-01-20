@@ -80,3 +80,11 @@ padding-top: 100px;
         top: 0;
         position: absolute;
     }
+    @media screen and (min-width: 300px) and (max-width:500px) {
+        .box {
+            left: 0%;
+            top: 15px;
+            position: absolute;
+            width: 97%;
+        }
+    }
