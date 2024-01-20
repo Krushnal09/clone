@@ -470,12 +470,16 @@ header {
     right: 0px;
   }
 }
+
 @media screen and (min-width: 300px) {
   .logo {
- 
+
     left: -52%;
   }
-  .wrapper{
+
+  .wrapper {
     left: 65x;
   }
+
+ 
 }
