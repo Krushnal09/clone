@@ -45,7 +45,7 @@ html{
     width: 31%;
     background-color: black;
     margin: 20px;
-    top: -8.5%;
+    margin-top: -37%;
     position: relative;
     border-radius: 20px;
     border-left: 14px solid #e37300;
@@ -106,7 +106,7 @@ html{
         /* padding-left: 70px; */
     }
 }
-@media screen and (min-width: 300px) {
+@media screen and (min-width: 300px) and (max-width:500px) {
     .vid-sec {
         top: 23%;
     }

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css" type="text/css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css"
+        integrity="sha384-3B6NwesSXE7YJlcLI9RpRqGf2p/EgVH8BgoKTaUrmKNDkHPStTQ3EyoYjCGXaOTS" crossorigin="anonymous" />
+
+    <title>
+        Youtube Lite
+    </title>
+
+    <link rel="stylesheet" href="./css/about.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <script>
+        function increaseWidth() {
+            var contentDiv = document.getElementById('sider');
+            contentDiv.style.left = '9px';
+            contentDiv.style.width = '13rem'; // You can set ay desired width here
+        }
+    </script>
+    <script>
+        function decreaseWidth() {
+            var contentDiv = document.getElementById('sider');
+
+            contentDiv.style.width = '0rem';
+      contentDiv.style.left = '-23px'; // You can set ay desired width here
+    }
+    </script>
+
+    <header class="header">
+        <div class="head-container">
+            <span class="menu" onclick="increaseWidth()"><img src="./img/menu.png" alt=""></span>
+            <span class="logo">
+                <img src="./img/logo.png" alt="logo">
+                <a href="./index.html">
+                    <h1>YOUTUBE</h1><br><br>
+                    <h2>lite</h2>
+                </a>
+            </span>
+
+            <div class="wrapper">
+                <div class="search-input">
+                    <a href="" target="_blank" hidden></a>
+                    <input type="text" placeholder="Search..">
+                    <div class="autocom-box">
+                        <!-- here list are inserted from javascript -->
+                    </div>
+                    <div class="icon"><i class="fas fa-search"></i></div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <br>
+    <hr>
+
+    <div class="sider" id="sider">
+        <div class="items">
+            <ul>
+                <li class="link-items" id="home"><i class="fa fa-house nav_icon"></i>HOME</li> <img class="close"
+                    src="./img/cross.png" onclick="decreaseWidth()">
+                <li class="link-items" id="trending"><i class="fa-solid fa-fire nav_icon"></i>TRENDING</li>
+                <li class="link-items" id="explore"><i class="fa fa-compass nav_icon"></i>EXPLORE</li>
+                <li class="link-items" id="music"><i class="fa-solid fa-music nav_icon"></i>MUSIC</li>
+                <a href="./about.html">
+                    <li class="link-items" id="contact"><i class="fa-solid fa-users nav_icon"></i>CONTACT US</li>
+                </a>
+            </ul>
+        </div>
+    </div>
+    <div class="box">
+        <div class="about">
+            <h1>Follow Me</h1>
+        </div>
+        <div class="bg">
+
+
+            <a href="/">
+                <span><img src="./img/logo1.jpg" width="140px" height="150px" alt=""></span>
+            </a>
+
+        </div>
+
+   
+        <div class="center">
+
+            <a href="https://www.facebook.com/Krushnal.patil.37625">
+                <i class="fa-brands fa-3x fa-facebook"></i> </a>
+            <a href="https://www.twitter.com/krushnal_09?=08">
+                <i class="fa-brands fa-3x fa-twitter"></i> </a>
+            <a href="https://www.instagram.com/krushnal_09/">
+                 <i class="fa-brands fa-3x fa-instagram"></i> </a>
+            <a href="https://www.linkedin.com/in/krushnalpatil09/">
+                 <i class="fa-brands fa-3x fa-linkedin"></i> </a>
+         </div>
+
+    </div>
+
+    <div class="footer">
+        <p>Copyright &copy; krushnal.work.gd </p>
+
+    </div>
+    </div>
+
+
+
+</body>
+
+</html>

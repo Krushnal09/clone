@@ -7,6 +7,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="./css/style.css" type="text/css" />
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css"
     integrity="sha384-3B6NwesSXE7YJlcLI9RpRqGf2p/EgVH8BgoKTaUrmKNDkHPStTQ3EyoYjCGXaOTS" crossorigin="anonymous" />
   <link rel="stylesheet" href="./css/video.css">
@@ -29,7 +32,8 @@
     function decreaseWidth() {
       var contentDiv = document.getElementById('sider');
       
-      contentDiv.style.width = '0rem'; // You can set ay desired width here
+      contentDiv.style.width = '0rem';
+      contentDiv.style.left = '-23px'; // You can set ay desired width here
     }
   </script>
 
@@ -66,7 +70,9 @@
         <li class="link-items" id="trending"><i class="fa-solid fa-fire nav_icon"></i>TRENDING</li>
         <li class="link-items" id="explore"><i class="fa fa-compass nav_icon"></i>EXPLORE</li>
         <li class="link-items" id="music"><i class="fa-solid fa-music nav_icon"></i>MUSIC</li>
-        <li class="link-items" id="contact"><i class="fa-solid fa-users nav_icon"></i>CONTACT US</li>
+        <a href="./about.html">
+          <li class="link-items" id="contact"><i class="fa-solid fa-users nav_icon"></i>CONTACT US</li>
+        </a>
       </ul>
     </div>
   </div>
