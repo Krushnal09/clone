@@ -1,5 +1,5 @@
 html{
-  height: 100%;
+  height: auto;
 }
 body{
   height: 100%;
@@ -49,9 +49,14 @@ header{
     align-items: center;
 
 }
+.logo  a{
+  text-decoration: none;
+  color: #000000;
+  display: flex;
+}
 .logo h2{
   font-family: cursive;
-  margin: 2px;
+ padding-left: 4px;
 }
 /*-----search-----*/
 .wrapper {
@@ -232,7 +237,7 @@ display: flex;
   margin: 10px;
   background-color: #fff;
   border-radius: 20px;
-  box-shadow: 4px 8px 15px 2px#555252;
+  box-shadow: 4px 8px 15px 2px #87853f;
   transition: transform .6s;
  
 }
@@ -272,6 +277,20 @@ display: flex;
   border-radius: 30px;
   
 }
+.time{
+  background-color: #000000;
+  color: #fff;
+  height: 25px;
+  width: 56px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-around;
+  /* right: -87px; */
+  position: relative;
+  left: 77%;
+  border-radius: 5px;
+  padding: 2px;
+}
 
 .video_items .heading {
   width: 80%;
@@ -287,7 +306,8 @@ display: flex;
 
 .video_items span {
   margin: 0;
-  color: grey;
-  font-size: 13px;
-  font-weight: 500;
+  color: white;
+  font-size: 18px;
+  font-weight: 50px;
 }
+
