@@ -1,93 +1,111 @@
-html{
+html {
     height: max-content;
 }
-.about{
-    
-    
-padding-top: 100px;
+
+.about {
+
+
+    padding-top: 100px;
     display: flex;
     justify-content: center;
-    
-	font-family: var(--font1);
+
+    font-family: var(--font1);
 }
-.center{
-    
-    
+
+.center {
+
+
     height: 60vh;
     display: flex;
     justify-content: center;
     align-items: center;
 
 }
-.center a{
+
+.center a {
     height: 100px;
     width: 100px;
     background-color: #f5f6fa;
     border-radius: 50px;
     text-align: center;
     margin: 10px;
-    box-shadow:  1px 4px 2px 2px  #dcdde1;
-    line-height: 120px; position: relative;
+    box-shadow: 1px 4px 2px 2px #dcdde1;
+    line-height: 120px;
+    position: relative;
     overflow: hidden;
 }
-.center a i{
+
+.center a i {
     transition: transform 0.3s linear;
-    
+
 }
-.center a:hover i{
+
+.center a:hover i {
     transform: scale(1.2);
-    
+
 }
-.fa-instagram{
- color: #e84393;
+
+.fa-instagram {
+    color: #e84393;
 }
-.fa-twitter{
+
+.fa-twitter {
     color: #0097e6;
 
 }
-.fa-linkedin{
+
+.fa-linkedin {
     color: #0a66c2;
 }
-.center a:before{
+
+.center a:before {
     content: "";
     width: 120%;
     height: 120%;
     position: absolute;
-    top: 90%; left: -50%;
+    top: 90%;
+    left: -50%;
     background-color: #00a8ff;
     transform: rotate(60deg);
 
 }
 
-.about2{
-    
+.about2 {
+
     margin-left: auto;
     margin-right: auto;
     width: 50%;
 }
 
-.bg{
+.bg {
     height: 20px;
     display: flex;
     justify-content: center;
     padding-top: 6%;
-    
-}
-.bg img{
-    
-    border-radius: 70px;
+
 }
 
+.bg img {
+
+    border-radius: 70px;
+    transition: .8s ease;
+}
+.bg:hover img{
+    box-shadow: 4px 8px 18px 2px #c80251;
+
+}
+
+.box {
+    left: 30%;
+    top: 90px;
+    position: absolute;
+}
+
+@media screen and (min-width: 300px) and (max-width:500px) {
     .box {
-        left: 30%;
-        top: 90px;
+        left: 0%;
+        top: 132px;
         position: absolute;
+        width: 97%;
     }
-    @media screen and (min-width: 300px) and (max-width:500px) {
-        .box {
-            left: 0%;
-            top: 132px;
-            position: absolute;
-            width: 97%;
-        }
-    }
+}

@@ -167,12 +167,13 @@ header {
   overflow: hidden;
   z-index: 400;
   margin-left: 2px;
+  transition: all .9s ease;
 }
 
 .sider:hover {
   width: 13rem;
   border: white 2px solid;
-  transition: all .8s ease;
+  
   box-shadow: 4px 8px 15px 2px #ac3883;
  
 
